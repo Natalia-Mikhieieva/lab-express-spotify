@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(41, 3, 3, 0.4);
+  background-image: url("/images/spotify-background.jpeg");
+  background-size: cover;
+}
+
+/* here are styles for nav bar */
+nav ul {
+  display: flex;
+  background-color: #ffffff;
+  height: 8vh;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav li {
+  list-style: none;
+}
+nav a {
+  color: #040404;
+  font-size: 15px;
+  font-family: monospace;
+  text-decoration: none;
+  padding: 0px 35px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 100px 120px;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 600%;
+}
+
+button {
+  background-color: rgb(255, 74, 74);
+  border-style: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: blanchedalmond;
+}
+
+.input {
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: azure;
+  color: black;
+}
+
+.artist {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  background-color: #ff3b3b;
+  padding: 16px 24px;
+}

@@ -1,0 +1,16 @@
+<div class="columns-3">
+
+  <ul>
+
+    {{#each albums}}
+      <li>
+        <br />
+        <img src="{{this.images.0.url}}" alt="{{this.name}}" />
+        <br />
+        <a href="/tracks/{{this.id}}"> Tracks</a>
+      </li>
+    {{/each}}
+
+  </ul>
+
+</div>

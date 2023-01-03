@@ -1,0 +1,20 @@
+<div class="columns-3 ...">
+
+  <ul>
+    {{#each tracks}}
+      <li>
+        <h4>{{this.name}}</h4>
+        <br />
+        {{#if this.preview_url}}
+          <audio controls>
+            <source src="{{this.preview_url}}" type="audio/mpeg" />
+            Tu navegador esta chafon
+          </audio>
+        {{else}}
+          <p><b>No preview </b></p>
+        {{/if}}
+      </li>
+    {{/each}}
+  </ul>
+
+</div>
